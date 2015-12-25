@@ -7,3 +7,4 @@ deploy:
   bucket: "ci.julienbalestra.com"
   skip_cleanup: true
   acl: public_read
+  region: eu-west-1
