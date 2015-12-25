@@ -1,0 +1,41 @@
+div.progress {
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 0;
+    margin-top: 8px;
+    box-shadow: 0 0 1px #a8a8a8;
+    margin-bottom: 14px;
+    height: 5px;
+}
+
+body {
+    background: -webkit-radial-gradient(#cfcdd3, #e7e4eb, #ffffff); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#cfcdd3, #e7e4eb, #ffffff); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#cfcdd3, #e7e4eb, #ffffff); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#cfcdd3, #e7e4eb, #ffffff); /* Standard syntax */
+    font-family: 'Open Sans', sans-serif;
+    line-height: 140%;
+}
+
+img {
+    margin-top: 5px;
+    max-width: 55%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+@media print {
+    div.progress {
+        background-color: #e7e7e7;
+        border: 0;
+        box-shadow: none;
+    }
+
+    div.progress div.progress-bar {
+        border: 0;
+        box-shadow: none;
+    }
+    body {
+        background: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
