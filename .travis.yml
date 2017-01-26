@@ -1,4 +1,9 @@
-script: "echo starting..."
+language: node_js
+
+
+script:
+  - make prod
+
 
 deploy:
   provider: s3

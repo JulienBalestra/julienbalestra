@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/printable-bootstrap.css">
+</head>
+<body>
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <br>
+            <div class="col-md-3">
+                <img src="items/picture.jpg" class="img-rounded">
+            </div>
+            <div class="col-md-5">
+                <h1>Julien Balestra</h1>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <div class="col-md-3">
+                <a href="mailto:#">julien.balestra@gmail.com</a><br>
+                33-666-014-433<br>
+            </div>
+            <div class="col-md-3">
+                Paris, France<br>
+                Motorbike, car licenses<br>
+            </div>
+            <div class="col-md-3">
+                July 14, 1987<br>
+                <a href="https://github.com/JulienBalestra">my github.com</a>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+    <div id="app">
+        <h3>Experiences</h3>
+        <experiences-list v-for="experience in experiences" v-bind:experience="experience"></experiences-list>
+
+        <h3 style="margin-top: 50px">Skills</h3>
+        <skills-list v-for="(skill, sindex) in skills" v-bind:skills="skills" v-bind:sindex="sindex"></skills-list>
+
+        <h3 style="margin-top: 50px">Education</h3>
+        <educations-list v-for="education in educations" v-bind:education="education"></educations-list>
+
+        <h3 style="margin-top: 50px">Hobbies</h3>
+        <hobbies-list v-for="hobbie in hobbies" v-bind:hobbie="hobbie"></hobbies-list>
+    </div>
+</div>
+</body>
+
+<script src="node_modules/vue/dist/link-vue.js"></script>
+<script src="node_modules/vue-resource/dist/vue-resource.min.js"></script>
+<script src="js/app.js"></script>
+
+<template id="template-experiences">
+    <div class="row" style="margin-bottom: 20px">
+        <div class="col-md-2">{{ experience.start }} - {{ experience.end }}</div>
+        <div class="col-md-10">
+            <p><span style="font-weight: bold;">{{ experience.title }}</span> - <span style="font-size: smaller">{{ experience.company }} ({{ experience.location }})</span>
+            </p>
+            <p style="margin-bottom: 2px" v-for="description in experience.descriptions">{{ description }}</p>
+        </div>
+    </div>
+</template>
+
+<template id="template-skills">
+    <div v-if="sindex % 3 == 0" class="row" style="margin-bottom: 20px">
+        <div v-for="n in 3" v-if="skills.length > sindex + n - 1">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-2">
+                        <span style="font-weight: bold">{{ skills[sindex + n - 1].title }}</span>
+                    </div>
+                </div>
+                <template v-for="(field, findex) in skills[sindex + n - 1].fields">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar"
+                                     :style="{ width: field.percent + '%' }"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            {{ field.name }}
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template id="template-educations">
+    <div class="row" style="margin-bottom: 20px">
+        <div class="col-md-2">{{ education.start }} - {{ education.end }}</div>
+        <div class="col-md-10">
+            <p><span style="font-weight: bold;">{{ education.title }}</span>
+            </p>
+            <p style="margin-bottom: 2px" v-for="description in education.descriptions">{{ description }}</p>
+        </div>
+    </div>
+</template>
+
+<template id="template-hobbies">
+    <div class="row" style="margin-bottom: 2px">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <p style="margin-bottom: 2px">{{ hobbie }}</p>
+        </div>
+    </div>
+</template>
+
+</html>
