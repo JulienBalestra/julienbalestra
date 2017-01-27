@@ -108,7 +108,7 @@
           "percent": 30
         },
         {
-          "name": "NoSQL",
+          "name": "MongoDB",
           "percent": 80
         }
       ]
@@ -151,11 +151,11 @@
         },
         {
           "name": "Kubernetes",
-          "percent": 70
+          "percent": 60
         },
         {
-          "name": "Discovery",
-          "percent": 60
+          "name": "Service Discovery",
+          "percent": 55
         }
       ]
     },
@@ -169,10 +169,6 @@
         {
           "name": "Cloud-init",
           "percent": 95
-        },
-        {
-          "name": "Paramiko",
-          "percent": 70
         },
         {
           "name": "Ignition",
@@ -256,7 +252,7 @@
       "descriptions": [
         "Private School about Computer Programming",
         "Peer-to-peer learning of computer programming under UNIX environments",
-        "All projects are stored inside dedicated github repositories"
+        "All projects are stored inside public dedicated github repositories"
       ]
     },
     {
