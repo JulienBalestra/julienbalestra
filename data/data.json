@@ -3,7 +3,7 @@
     {
       "title": "System Engineer",
       "descriptions": [
-        "Moving to Kubernetes over CoreOS baremetal platform",
+        "Moving from Fleet to Kubernetes over CoreOS baremetal platform",
         "Running the CoreOS rkt container runtime in production"
       ],
       "location": "Paris, France",
@@ -76,7 +76,7 @@
         },
         {
           "name": "Python",
-          "percent": 85
+          "percent": 90
         },
         {
           "name": "JavaScript",
@@ -147,11 +147,11 @@
         },
         {
           "name": "rkt",
-          "percent": 80
+          "percent": 85
         },
         {
           "name": "Kubernetes",
-          "percent": 60
+          "percent": 55
         },
         {
           "name": "Service Discovery",
@@ -214,7 +214,7 @@
         },
         {
           "name": "Baremetal",
-          "percent": 70
+          "percent": 65
         }
       ]
     },
@@ -231,7 +231,7 @@
         },
         {
           "name": "Redis",
-          "percent": 70
+          "percent": 40
         },
         {
           "name": "MySQL",
@@ -283,13 +283,12 @@
       "end": "2007",
       "descriptions": [
         "Judicial police officer, criminal law and criminal procedure",
-        "Coordinator of information and communication systems"
+        "Coordinator of IT systems"
       ]
     }
   ],
   "hobbies": [
     "Alpine skiing (10 years of competition), rock-climbing, alpinism and kitesurf",
-    "Summer-school : Scotland, Ireland, New Zealand and United-States",
     "Travelling : Martinique, French Guiana, Reunion France, Bali, Thailand, Ecuador and other europeans trips",
     "Reading about programming methods (Donald Knuth, Jeff Atwood, ...)"
   ]
