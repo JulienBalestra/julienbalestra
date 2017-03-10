@@ -3,8 +3,8 @@
     {
       "title": "System Engineer",
       "descriptions": [
-        "Moving from Fleet to Kubernetes over CoreOS baremetal platform",
-        "Running the CoreOS rkt container runtime in production"
+        "Migration from Fleet to Google Kubernetes",
+        "Development of a CoreOS deployment stack for Kubernetes"
       ],
       "location": "Paris, France",
       "start": "2016",
