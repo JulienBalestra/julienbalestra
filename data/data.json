@@ -72,7 +72,7 @@
         },
         {
           "name": "Go",
-          "percent": 55
+          "percent": 60
         },
         {
           "name": "Python",
@@ -147,15 +147,15 @@
         },
         {
           "name": "rkt",
-          "percent": 85
+          "percent": 90
         },
         {
           "name": "Kubernetes",
-          "percent": 55
+          "percent": 75
         },
         {
           "name": "Service Discovery",
-          "percent": 55
+          "percent": 65
         }
       ]
     },
@@ -172,7 +172,7 @@
         },
         {
           "name": "Ignition",
-          "percent": 80
+          "percent": 95
         }
       ]
     },
@@ -185,7 +185,7 @@
         },
         {
           "name": "CoreOS",
-          "percent": 95
+          "percent": 90
         },
         {
           "name": "Red Hat",
@@ -214,7 +214,7 @@
         },
         {
           "name": "Baremetal",
-          "percent": 65
+          "percent": 80
         }
       ]
     },
