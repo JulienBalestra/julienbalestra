@@ -4,7 +4,8 @@
       "title": "System Engineer",
       "descriptions": [
         "Migration from Fleet to Google Kubernetes",
-        "Development of a CoreOS deployment stack for Kubernetes"
+        "Development of a CoreOS testing, deployment and operating stack for Kubernetes",
+        "Upstream contributions around Kubernetes and containers eco-system"
       ],
       "location": "Paris, France",
       "start": "2016",
@@ -96,16 +97,12 @@
           "percent": 70
         },
         {
-          "name": "Intellij Idea",
-          "percent": 75
-        },
-        {
           "name": "Testing",
           "percent": 80
         },
         {
           "name": "SQL",
-          "percent": 30
+          "percent": 35
         },
         {
           "name": "MongoDB",
@@ -122,11 +119,11 @@
         },
         {
           "name": "SQLAlchemy",
-          "percent": 25
+          "percent": 35
         },
         {
           "name": "jQuery",
-          "percent": 65
+          "percent": 60
         },
         {
           "name": "Vuejs",
@@ -147,11 +144,11 @@
         },
         {
           "name": "rkt",
-          "percent": 90
+          "percent": 95
         },
         {
           "name": "Kubernetes",
-          "percent": 75
+          "percent": 85
         },
         {
           "name": "Service Discovery",
@@ -164,7 +161,11 @@
       "fields": [
         {
           "name": "Ansible",
-          "percent": 60
+          "percent": 50
+        },
+        {
+          "name": "Fabric",
+          "percent": 80
         },
         {
           "name": "Cloud-init",
@@ -252,7 +253,7 @@
       "descriptions": [
         "Private School about Computer Programming",
         "Peer-to-peer learning of computer programming under UNIX environments",
-        "All projects are stored inside public dedicated github repositories"
+        "Some projects are stored inside public github repositories"
       ]
     },
     {
