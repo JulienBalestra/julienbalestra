@@ -14,8 +14,8 @@
     {
       "title": "System Engineer",
       "descriptions": [
-        "Migration from Fleet to Google Kubernetes",
-        "Development of a CoreOS testing, deployment and operating stack for Kubernetes",
+        "Migration from CoreOS Fleet to Google Kubernetes",
+        "Development of a CoreOS testing, deployment and operating stack for Kubernetes clusters",
         "Upstream contributions around Kubernetes and containers ecosystem"
       ],
       "location": "Paris, France",
@@ -27,7 +27,7 @@
       "title": "DevOps",
       "descriptions": [
         "Leading OpenStack development of a MongoDB DBaaS solution",
-        "Application bound with OpenStack native API",
+        "Application bound with OpenStack native APIs",
         "Maintenance, repair and operations (backup, restore, schedule)",
         "Project under continuous integration and deployment"
       ],
