@@ -16,7 +16,7 @@
       "descriptions": [
         "Migration from Fleet to Google Kubernetes",
         "Development of a CoreOS testing, deployment and operating stack for Kubernetes",
-        "Upstream contributions around Kubernetes and containers eco-system"
+        "Upstream contributions around Kubernetes and containers ecosystem"
       ],
       "location": "Paris, France",
       "start": "2016",
@@ -84,7 +84,7 @@
         },
         {
           "name": "Go",
-          "percent": 80
+          "percent": 85
         },
         {
           "name": "Python",
@@ -109,7 +109,7 @@
         },
         {
           "name": "Testing",
-          "percent": 80
+          "percent": 85
         },
         {
           "name": "SQL",
