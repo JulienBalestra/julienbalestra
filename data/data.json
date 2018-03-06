@@ -3,7 +3,8 @@
     {
       "title": "Software Engineer",
       "descriptions": [
-        "Build open-source software that monitors containers, their runtimes, orchestrators and other components of the cloud-native ecosystem"
+        "Build open-source software that monitors containers, their runtimes,",
+        "orchestrators and other components of the cloud-native ecosystem"
       ],
       "location": "Paris, France",
       "start": "2017",
