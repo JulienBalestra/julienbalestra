@@ -15,9 +15,12 @@ prod: npm
 	ln -sv $(PROD) $(LINK)
 
 clean:
-	rm -v $(LINK) || true
+	$(RM) -v $(LINK)
 
 fclean:
-	rm -rfv $(NODE)
+	$(RM) -Rfv $(NODE)
 
 re: fclean npm
+
+check:
+	jq . data/data.json
