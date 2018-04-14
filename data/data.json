@@ -16,7 +16,7 @@
       "descriptions": [
         "Migration from CoreOS Fleet to Google Kubernetes",
         "Development of a CoreOS testing, deployment and operating stack for",
-        "baremetal Kubernetes clusters",
+        "baremetal Kubernetes clusters"
       ],
       "location": "Paris, France",
       "start": "2016",
