@@ -268,28 +268,6 @@
       ]
     },
     {
-      "title": "Continuing Education",
-      "start": "2007",
-      "end": "now",
-      "descriptions": [
-        "2016 : JavaScript Initiation",
-        "2015 : PostgreSQL for developers",
-        "2015 : Unix / Linux - Shell programming [UNLI-SH]",
-        "2015 : MongoDB for Python Developers [M101P]",
-        "2015 : MongoDB for DBAs [M102]",
-        "2015 : HP Cloud Service Automation",
-        "2015 : Cloud computing concepts & introduction to OpenStack",
-        "2015 : HP Operations Orchestration",
-        "2014 : Python Advanced",
-        "2014 : Veeam Certified Engineers for Backup and Replication",
-        "2014 : VMware vSphere: Optimize and Scale [V5.5]",
-        "2013 : VMware vSphere: What's New [V5.0]",
-        "2011 : VMware vSphere: Install, Configure, Manage [V4.1]",
-        "2011 : Microsoft Windows 7 PowerShell Administration",
-        "2008 : Microsoft Active Directory Windows Server 2003"
-      ]
-    },
-    {
       "title": "National Police Academy",
       "start": "2005",
       "end": "2007",
