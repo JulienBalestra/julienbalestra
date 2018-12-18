@@ -80,11 +80,11 @@
       "fields": [
         {
           "name": "C",
-          "percent": 50
+          "percent": 40
         },
         {
           "name": "Go",
-          "percent": 85
+          "percent": 95
         },
         {
           "name": "Python",
@@ -92,7 +92,7 @@
         },
         {
           "name": "JavaScript",
-          "percent": 60
+          "percent": 40
         },
         {
           "name": "Shell",
@@ -134,7 +134,7 @@
         },
         {
           "name": "jQuery",
-          "percent": 50
+          "percent": 30
         },
         {
           "name": "Vuejs",
@@ -142,7 +142,7 @@
         },
         {
           "name": "Bootstrap",
-          "percent": 75
+          "percent": 60
         }
       ]
     },
@@ -159,11 +159,11 @@
         },
         {
           "name": "Kubernetes",
-          "percent": 90
+          "percent": 95
         },
         {
           "name": "Service Discovery",
-          "percent": 70
+          "percent": 80
         }
       ]
     },
@@ -210,19 +210,19 @@
       "fields": [
         {
           "name": "OpenStack",
-          "percent": 90
+          "percent": 80
         },
         {
           "name": "AWS",
-          "percent": 30
+          "percent": 50
         },
         {
           "name": "Google",
-          "percent": 20
+          "percent": 50
         },
         {
           "name": "VMware",
-          "percent": 90
+          "percent": 80
         },
         {
           "name": "Baremetal",
