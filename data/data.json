@@ -81,7 +81,7 @@
       "fields": [
         {
           "name": "C",
-          "percent": 40
+          "percent": 45
         },
         {
           "name": "Go",
@@ -93,7 +93,7 @@
         },
         {
           "name": "JavaScript",
-          "percent": 40
+          "percent": 35
         },
         {
           "name": "Shell",
@@ -118,7 +118,7 @@
         },
         {
           "name": "MongoDB",
-          "percent": 75
+          "percent": 80
         }
       ]
     },
@@ -159,12 +159,12 @@
           "percent": 95
         },
         {
-          "name": "Kubernetes",
-          "percent": 95
+          "name": "containerd",
+          "percent": 80
         },
         {
-          "name": "Service Discovery",
-          "percent": 80
+          "name": "Kubernetes",
+          "percent": 95
         }
       ]
     },
@@ -215,19 +215,19 @@
         },
         {
           "name": "AWS",
-          "percent": 50
+          "percent": 70
         },
         {
           "name": "Google",
-          "percent": 50
+          "percent": 75
         },
         {
           "name": "VMware",
-          "percent": 80
+          "percent": 70
         },
         {
           "name": "Baremetal",
-          "percent": 80
+          "percent": 75
         }
       ]
     },
@@ -241,18 +241,6 @@
         {
           "name": "etcd",
           "percent": 95
-        },
-        {
-          "name": "Redis",
-          "percent": 40
-        },
-        {
-          "name": "MySQL",
-          "percent": 10
-        },
-        {
-          "name": "PostgreSQL",
-          "percent": 20
         }
       ]
     }
