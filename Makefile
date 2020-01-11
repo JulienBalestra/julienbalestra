@@ -9,10 +9,10 @@ npm:
 	npm install
 
 dev: npm
-	ln -sv $(DEV) $(LINK)
+	ln -svf $(DEV) $(LINK)
 
 prod: npm
-	ln -sv $(PROD) $(LINK)
+	ln -svf $(PROD) $(LINK)
 
 clean:
 	$(RM) -v $(LINK)
